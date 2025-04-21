@@ -1,4 +1,4 @@
-🔍 Problem Statement
+**🔍 Problem Statement**
 
 
 With increasing concerns around email privacy, especially in application accounts used for automated communication (e.g., alert systems, reporting bots, transactional services), there is a strong need to restrict visibility of email content even if the account itself is compromised or accessed by unintended users.
@@ -6,7 +6,7 @@ With increasing concerns around email privacy, especially in application account
 This project addresses that problem by allowing you to encrypt email content using classic and modern cryptographic algorithms before sending, ensuring that only the intended recipient with the right key can decrypt and read the message.
 
 
-📌 Project Overview
+**📌 Project Overview**
 
 This is a Python-based terminal application that allows a user to:
 
@@ -19,7 +19,7 @@ Communication is often automated.
 Human-readable protection is necessary even if the account credentials are exposed.
 
 
-🔧 Features
+**🔧 Features**
 
 ✅ Caesar Cipher
 ✅ Monoalphabetic Cipher
@@ -32,7 +32,7 @@ Human-readable protection is necessary even if the account credentials are expos
 
 
 
-⚙️ Technologies Used
+**⚙️ Technologies Used**
 
 Python 3.x
 smtplib – Sending emails via SMTP
@@ -41,7 +41,7 @@ pycryptodome – For DES and AES encryption
 email – MIME email formatting and parsing
 
 
-🔐 Security Considerations
+**🔐 Security Considerations**
 
 ⚠️ This system is designed primarily for application-specific accounts, such as Gmail App Passwords.
 Do NOT use your main email credentials directly.
@@ -54,17 +54,18 @@ Email content remains secure even if email credentials are leaked, unless the en
 
 
 
-🚀 Getting Started
+**🚀 Getting Started**
 
-📥 Prerequisites
+**📥 Prerequisites**
 pip install pycryptodome
 
-🧪 Run the Program
+
+**🧪 Run the Program**
 
 python email_encryption.py
 
 
-🛠️ How to Use
+**🛠️ How to Use**
 
 Choose whether you want to:
 Send an encrypted email
@@ -76,12 +77,14 @@ The email is encrypted and sent to the recipient.
 The recipient can decrypt the email content using the same algorithm and key.
 
 
-🧠 Example Use Case
+**🧠 Example Use Case**
+
 Imagine you're using an automated application account to send system reports or logs. These logs may contain sensitive data (e.g., server IPs, user activities). Encrypting the content ensures that even if someone accesses the email inbox, the actual message content remains protected unless they also have the correct key.
 
 
 
-📧 Email Configuration
+**📧 Email Configuration**
+
 ⚠️ Replace placeholders with your actual email and app password in the code:
 
 email = "your_application_email@gmail.com"
@@ -92,7 +95,7 @@ Avoid using your primary email or personal password. Use application-specific pa
 
 
 
-🧩 Future Improvements
+**🧩 Future Improvements**
 
 GUI version using PyQt or Tkinter
 Integration with encrypted storage (key vault)
