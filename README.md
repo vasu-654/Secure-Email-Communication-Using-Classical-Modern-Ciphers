@@ -85,6 +85,7 @@ Imagine you're using an automated application account to send system reports or 
 ⚠️ Replace placeholders with your actual email and app password in the code:
 
 email = "your_application_email@gmail.com"
+
 password = "your_app_password_here"
 Avoid using your primary email or personal password. Use application-specific passwords for improved safety.
 
